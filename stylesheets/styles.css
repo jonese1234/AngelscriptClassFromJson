@@ -1,0 +1,108 @@
+.btn:focus, .btn-shorten:focus{
+  outline: 0 !important;
+}
+html,
+body {
+  height: 100%;
+    background: url(../images/shattered.png);
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-shorten {
+  color: #ffffff;
+  background-color: #F89406;
+  font-size: 25px;
+  border-radius: 7px !important;
+
+}
+
+.btn-shorten:hover,
+.btn-shorten:focus,
+.btn-shorten:active,
+.btn-shorten.active {
+  color: #ffffff;
+  background-color: #FA8900;
+  border-radius: 7px !important;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.main-container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+}
+
+.inner {
+  padding: 30px;
+}
+
+.inner h4 {
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+h4 a, h4 a:hover, h4 a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.glyphicon-link {
+  font-size: 2em;
+}
+
+.inner h1 {
+  margin-top: 5px;
+}
+
+#link {
+  display: none;
+  padding-top: 15px;
+}
+
+#link a{
+  color: #F89406;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+textarea{
+    color: #000000;
+    resize: vertical;
+    white-space: pre;
+    overflow-wrap: normal;
+    overflow-x: scroll;
+}
+
+#linkinput {
+    padding-top: 45px;
+    padding-left: 10px;
+    float: left
+}
+#linkoutput {
+    float: right;
+    padding-top: 45px;
+    padding-right: 5px;
+    padding-left: 65px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
