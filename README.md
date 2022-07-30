@@ -1,2 +1,2 @@
-# AnglescriptClassFromJson
- Create anglescript classes from Json
+# AngelscriptClassFromJson
+ Create angelscript classes from Json
